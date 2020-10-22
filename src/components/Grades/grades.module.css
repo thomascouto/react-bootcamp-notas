@@ -1,0 +1,11 @@
+.border {
+  border-color: #ededed;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 1%;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
