@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Grade from "../Grade/Grade";
 import Calculos from "../Calculos/Calculos";
+import Pie from "../Pie/Pie";
 import css from "./grades.module.css";
 
 const grades = [
@@ -89,6 +90,7 @@ export default class Grades extends Component {
             <h2>Cálculos</h2>
             <div className={css.border}>
               <Calculos ratings={this.getCalc()} />
+              <Pie ratings={grades} />
             </div>
           </div>
         </div>
